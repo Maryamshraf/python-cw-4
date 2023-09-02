@@ -2,8 +2,8 @@ def my_name(name):
     print(name)
 my_name("my name is maryam")
 def my_meal(food,drink):
-    print(food+ " "+drink)
-my_meal("i like to eat pizza" ," while  drinking cola" )
+    print(f"i like to eat {food} while drinking {drink}")
+my_meal("pizza","cola")
 def cube(number):
    #number= int(input("enter a number:"))
    return number**3
